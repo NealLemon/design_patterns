@@ -1,15 +1,15 @@
 package com.principle.openclose;
 
 /**
- * @ClassName SellColaGood
- * @Description 促销的可乐商品类
+ * @ClassName ColaDiscountGood
+ * @Description 打折商品类
  * @Author Neal
  * @Date 2019/2/26 20:23
  * @Version 1.0
  */
-public class SellColaGood extends ColaGood{
+public class ColaDiscountGood extends ColaGood{
 
-    public SellColaGood(String goodName, int goodId, int goodPrice) {
+    public ColaDiscountGood(String goodName, int goodId, int goodPrice) {
         super(goodName, goodId, goodPrice);
     }
 
@@ -21,6 +21,7 @@ public class SellColaGood extends ColaGood{
     public int getOriginPrice() {
         return super.getGoodPrice();
     }
+
 
     @Override
     public int getGoodPrice() {

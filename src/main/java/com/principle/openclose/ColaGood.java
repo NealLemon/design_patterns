@@ -9,10 +9,13 @@ package com.principle.openclose;
  */
 public class ColaGood implements IGood{
 
+    //商品名称
     private String goodName;
 
+    //商品ID
     private int goodId;
 
+    //商品价格
     private int goodPrice;
 
     public ColaGood(String goodName, int goodId, int goodPrice) {

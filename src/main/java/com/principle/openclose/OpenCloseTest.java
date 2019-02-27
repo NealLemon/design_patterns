@@ -15,8 +15,8 @@ public class OpenCloseTest {
         System.out.println("当前商品ID是:"+ colaGood.getGoodId() +",商品名称是:"+colaGood.getGoodName() +"商品价格是:" + colaGood.getGoodPrice());
         //节假日促销的时候 打6折
         System.out.println("-------由于是节假日，可乐商品进行促销------");
-        IGood good = new SellColaGood("可口可乐",77,5);
-        SellColaGood sellColaGood = (SellColaGood) good;
-        System.out.println("当前商品ID是:"+ sellColaGood.getGoodId() +",商品名称是:"+sellColaGood.getGoodName() +",商品原价格是:" + sellColaGood.getOriginPrice() + ",商品打折后的价格是:" + sellColaGood.getGoodPrice());
+        IGood good = new ColaDiscountGood("可口可乐",77,5);
+        ColaDiscountGood discountGood = (ColaDiscountGood) good;
+        System.out.println("当前商品ID是:"+ discountGood.getGoodId() +",商品名称是:"+ discountGood.getGoodName() +",商品原价格是:" + discountGood.getOriginPrice() + ",商品打折后的价格是:" + discountGood.getGoodPrice());
     }
 }
