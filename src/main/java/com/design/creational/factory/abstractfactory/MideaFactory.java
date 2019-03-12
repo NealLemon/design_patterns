@@ -1,4 +1,4 @@
-package com.design.factory.abstractfactory;
+package com.design.creational.factory.abstractfactory;
 
 /**
  * @ClassName MideaFactory
@@ -7,17 +7,17 @@ package com.design.factory.abstractfactory;
  * @Date 2019/3/6 15:46
  * @Version 1.0
  */
-public class GreeFactory implements ElectricFactory {
+public class MideaFactory implements ElectricFactory {
 
     public AirConditioning produceAirConditioning() {
-        return new GreeAirConditioning();
+        return new MideaAirConditioning();
     }
 
     public Refrigerator produceRefrigerator() {
-        return new GreeRefrigerator();
+        return new MideaRefrigerator();
     }
 
     public Washer produceWasher() {
-        return new GreeWasher();
+        return new MideaWasher();
     }
 }

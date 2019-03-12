@@ -1,4 +1,4 @@
-package com.design.factory.abstractfactory;
+package com.design.creational.factory.abstractfactory;
 
 /**
  * @ClassName AirConditioning

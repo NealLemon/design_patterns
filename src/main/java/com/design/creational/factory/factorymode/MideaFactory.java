@@ -1,4 +1,4 @@
-package com.design.factory.factorymode;
+package com.design.creational.factory.factorymode;
 
 /**
  * @ClassName MideaFactory
